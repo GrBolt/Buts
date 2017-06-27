@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>butstrap</title>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .navbar-brand:hover{
+            color: #00BCD4!important;
+        }
+        .navbar-nav a:hover{
+
+            color: #00BCD4!important;
+        }
+        a:hover{
+            color: #00BCD4!important;
+        }
+        h2{
+            margin: 0;     
+            color: #666;
+            padding-top: 90px;
+            font-size: 52px;
+            font-family: "trebuchet ms", sans-serif;    
+        }
+        h4{
+            text-align: center;
+        }
+        .item{
+            background: #333;    
+            text-align: center;
+            height: 300px !important;
+        }
+
+        .carousel{
+            margin-top: 20px;
+        }
+        .carousel slide, carousel-inner{
+            height: 100%;
+        }
+        #content{
+            margin-top: 25px;
+        }
+        .thumbnail img{
+            margin-bottom: 15px;
+        }
+        .thumbnails a{
+            font-size: 25px;
+            text-decoration: none;
+            color: #777;
+            margin-left: 43%;
+        }
+        .thumbnails p{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row" id="menu">
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                  <a class="navbar-brand" href="#" >Logo</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            
+        </div>
+    <div class="row" id="slider">
+        <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+         
+          <ol class="carousel-indicators">
+            
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>   
+         
+          <div class="carousel-inner">
+           
+            <div class="active item">
+              <h2>Slide 1</h2>
+              <div class="carousel-caption">
+                <h3>First slide label</h3>
+                <p>Discription of dirst slide I mian</p>
+              </div>
+            </div>
+           
+            <div class="item">
+              <h2>Slide 2</h2>
+              <div class="carousel-caption">
+                <h3>Second slide label</h3>
+                <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+              </div>
+            </div>
+           
+            <div class="item">
+              <h2>Slide 3</h2>
+              <div class="carousel-caption">
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+    </div>
+    <div class="row" id="content">
+        <div class="thumbnails">
+        <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        </div>
+        <div class="thumbnails">
+             <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        </div>
+        <div class="thumbnails">
+             <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <div class="thumbnail">
+           <a helf="#" >Title</a>
+            <img src="http://placehold.it/300x200" alt="">
+            
+            <p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta.
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="row" id="footor">
+        <div class="navbar-bottom row-fluid navbar navbar-default">
+        <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav navbar-nav nvvbar-left">
+                <li><a href="#"><span class="glyphicon glyphicon-copyright-mark"></span> JK 2017</a></li>
+            </ul>
+             <ul class="nav navbar-nav navbar-right">
+                        
+                        <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span> Soshial</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Call Back</a></li>
+                  </ul>
+                   </div>
+                </div>
+           </div> 
+        </div>
+    </div>  
+
+</body>
+</html>
